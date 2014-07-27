@@ -1,0 +1,41 @@
+1. kernel drm intel
+http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-nightly/2014-07-26-utopic/linux-headers-3.16.0-994-generic_3.16.0-994.201407260425_amd64.deb
+http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-nightly/2014-07-26-utopic/linux-headers-3.16.0-994_3.16.0-994.201407260425_all.deb
+http://kernel.ubuntu.com/~kernel-ppa/mainline/drm-intel-nightly/2014-07-26-utopic/linux-image-3.16.0-994-generic_3.16.0-994.201407260425_amd64.deb
+sudo dpkg -i ...
+sudo gedit /etc/default/grub
+--GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi="
+sudo grub-install
+
+2. activate nvidia driver in System settings/Software & updates
+
+3. sudo apt-get install unity-tweak-tool
+4. http://www.noobslab.com/2013/07/delorean-dark-theme-for-ubuntu.html
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install delorean-dark
+use unity-tweak-tool to select
+5. http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+6. eclipse 
+tar -xwf eclipse.....tar.gz
+sudo mv eclipse.... / opt
+gedit eclipse.desktop
+more /usr/share/applications/eclipse.desktop 
+[Desktop Entry]
+Name=Eclipse
+Type=Application
+Exec=/opt/eclipse/eclipse
+Terminal=false
+Icon=/opt/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE
+Name[en]=eclipse
+eclipse.epf
+7. git
+8. chrome
+9. cairo dock
+
