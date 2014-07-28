@@ -35,6 +35,7 @@ NoDisplay=false
 Categories=Development;IDE
 Name[en]=eclipse
 eclipse.epf
+theme-29011.xml
 7. git
 
 prompt in .bashrc

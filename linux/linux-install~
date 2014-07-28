@@ -38,6 +38,7 @@ eclipse.epf
 7. git
 
 prompt in .bashrc
+https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 source ~/work/dump/linux/git-prompt.sh
 
 if [ "$color_prompt" = yes ]; then
